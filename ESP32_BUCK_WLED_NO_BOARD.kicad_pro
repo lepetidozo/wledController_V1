@@ -70,7 +70,56 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "drill_out_of_range|130680000|46160000|ded9a2f7-98d5-46b1-acd5-3171695f9f55|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|130680000|47560000|9b94b3d6-8d2e-4bd6-ad7b-b3a9142e0b82|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|131380000|45460000|f5078484-8901-4845-bccc-2c59c0da89a9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|131380000|46860000|aff1365c-5482-4467-8637-98dc84f1cb8c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|131380000|48260000|f79bba60-6d5b-4007-85e1-6c9fbded1f51|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|132080000|46160000|257e78cd-027d-4273-a724-554118842694|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|132080000|47560000|2627031f-1234-4d9a-922b-dc1b8b00ff8f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|132780000|45460000|0cd2a7a5-ca5b-4143-abd8-d99dc5e20a7d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|132780000|46860000|718b5e3f-297d-409c-bfce-cc614fff2cde|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|132780000|48260000|8fdf71b9-5518-44bc-a345-a8f939b3f20c|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|133480000|46160000|4019eccd-b230-4ca6-9f5c-d6f3e52a5fed|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|133480000|47560000|bf5acb86-381e-4faf-aa98-7a1f365e2627|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -628,6 +677,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field8",
+          "name": "Field8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -686,7 +759,7 @@
         "uuid": "825652b8-9479-497b-b5c8-f7254daf27f6"
       }
     ],
-    "used_designators": "Input_12vDC1,SW1-3,#PWR2-19,J1-6,alimentation_DC1,Output_5vDC1,RV1,L1,C1-16,D1-2,U1-5,Q1-6,Trimmer1,HS1,LED1,R1-25",
+    "used_designators": "Q1-6,U1-5,D1-2,R1-25,LED1,Input_12vDC1,SW1-3,#PWR2-19,J1-6,alimentation_DC1,Output_5vDC1,RV1,L1,Trimmer1,HS1,C1-16",
     "variants": []
   },
   "sheets": [

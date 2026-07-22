@@ -10097,7 +10097,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1f6a113c-1374-43fa-9bcc-d78a08275c0e")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 18.034 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10205,7 +10205,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -10222,7 +10222,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2093f29b-9fa0-45b0-8192-4e797ca69a08")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 219.456 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10284,7 +10284,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10495,7 +10495,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28738920-daac-453c-8f97-0f0284b26699")
-		(property "Reference" "R9"
+		(property "Reference" "R14"
 			(at 219.456 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +10557,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R9")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -10894,7 +10894,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3edf9bcd-e7fc-4844-ba11-91ced318d8da")
-		(property "Reference" "R15"
+		(property "Reference" "R9"
 			(at 19.05 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10958,7 +10958,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R15")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11411,7 +11411,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "53a9cacf-82c5-4402-bb91-652275ef0dfb")
-		(property "Reference" "R10"
+		(property "Reference" "R15"
 			(at 88.646 120.396 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11473,7 +11473,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R10")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11568,7 +11568,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59dc0ee5-ee6b-41ea-8689-e48f3ce7f020")
-		(property "Reference" "C5"
+		(property "Reference" "C7"
 			(at 196.342 31.242 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11630,7 +11630,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11728,7 +11728,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e278832-4c74-42c8-94fa-b38b14cecffd")
-		(property "Reference" "R6"
+		(property "Reference" "R11"
 			(at 219.456 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11790,7 +11790,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R6")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11885,7 +11885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6287b806-9d03-45c6-91b3-a684d66c5340")
-		(property "Reference" "R4"
+		(property "Reference" "R6"
 			(at 222.758 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11947,7 +11947,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12042,7 +12042,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "6f72034b-1317-42e4-aefb-f37147555e8f")
-		(property "Reference" "R12"
+		(property "Reference" "R2"
 			(at 182.118 92.456 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12104,7 +12104,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R12")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12743,7 +12743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8639fa5e-a638-48ca-93ce-27f4d81198ba")
-		(property "Reference" "C6"
+		(property "Reference" "C10"
 			(at 196.088 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12805,7 +12805,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "C6")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -12900,7 +12900,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "87bcb531-35b9-421c-a81b-7d8458e92368")
-		(property "Reference" "R17"
+		(property "Reference" "R10"
 			(at 112.522 100.838 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12962,7 +12962,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R17")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -12979,7 +12979,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c2e0bdf-0bf8-4773-b121-ad504a0f3206")
-		(property "Reference" "R2"
+		(property "Reference" "R4"
 			(at 104.648 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13043,7 +13043,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R2")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -13060,7 +13060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91192fe1-3825-421e-83f3-c35fe22c1a1a")
-		(property "Reference" "R7"
+		(property "Reference" "R12"
 			(at 219.456 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13122,7 +13122,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R7")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -13666,7 +13666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7255e6b-18e9-4cc4-a81d-25ed814788b8")
-		(property "Reference" "R5"
+		(property "Reference" "R7"
 			(at 222.758 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13728,7 +13728,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13745,7 +13745,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "c256925d-af4a-484a-b157-99653c3e00d3")
-		(property "Reference" "R13"
+		(property "Reference" "R3"
 			(at 182.372 98.044 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13807,7 +13807,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R13")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14067,7 +14067,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "ca65d2d5-2028-4eb6-939f-972070380029")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 99.568 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14131,7 +14131,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14590,7 +14590,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "d2e02cec-5833-49fb-923e-2ec4e4991f72")
-		(property "Reference" "C10"
+		(property "Reference" "C2"
 			(at 94.234 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14654,7 +14654,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "C10")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -14935,7 +14935,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "db105dfb-f424-40f8-9aaf-1a22c796c991")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 154.178 53.848 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14999,7 +14999,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15178,7 +15178,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e598b4f3-a9eb-4050-96c6-52e023bdd139")
-		(property "Reference" "C16"
+		(property "Reference" "C6"
 			(at 258.318 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15240,7 +15240,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "C16")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15530,7 +15530,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f5c3457c-021f-47b1-870b-baadabada913")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 144.018 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15592,7 +15592,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -15609,7 +15609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f8a11835-7165-40ed-a048-2345af913e5b")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 88.138 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15673,7 +15673,7 @@
 		(instances
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
