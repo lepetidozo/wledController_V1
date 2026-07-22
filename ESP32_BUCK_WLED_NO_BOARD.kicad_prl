@@ -113,15 +113,15 @@
   "project": {
     "files": [
       {
-        "name": "ESP32_BUCK_WLED_NO_BOARD.kicad_sch",
+        "name": "ESP32_BUCK_WLED_NO_BOARD.kicad_pcb",
         "open": true,
         "window": {
-          "display": 1,
-          "maximized": false,
-          "pos_x": 1920,
+          "display": 0,
+          "maximized": true,
+          "pos_x": 0,
           "pos_y": 0,
           "size_x": 1916,
-          "size_y": 1078
+          "size_y": 1021
         }
       }
     ]

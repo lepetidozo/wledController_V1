@@ -1048,6 +1048,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
@@ -6429,6 +6552,12 @@
 		(uuid "248f555e-f60e-4fab-8962-cf727c5b11df")
 	)
 	(junction
+		(at 251.46 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313f9b7b-45e8-4de7-9829-369d99711d70")
+	)
+	(junction
 		(at 194.31 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6465,6 +6594,12 @@
 		(uuid "536a7cb1-0809-41ac-ba83-3ee8fb219507")
 	)
 	(junction
+		(at 106.68 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c86ea98-8ffb-48fc-b170-1ca600e0efbe")
+	)
+	(junction
 		(at 101.6 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6483,10 +6618,16 @@
 		(uuid "68318fe3-1de2-4d8e-bae1-3df9faa31cae")
 	)
 	(junction
-		(at 254 156.21)
+		(at 251.46 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f98c84-2783-41cb-83f5-dd900979f7e8")
+	)
+	(junction
+		(at 180.34 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719e1663-c9c4-4dae-9d83-c660f38d94d0")
 	)
 	(junction
 		(at 194.31 29.21)
@@ -6507,13 +6648,13 @@
 		(uuid "81a744ff-4e0d-4902-a216-1ab5867b9c7c")
 	)
 	(junction
-		(at 231.14 151.13)
+		(at 228.6 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "930cf165-0604-4f0b-ac17-105b8005b150")
 	)
 	(junction
-		(at 254 153.67)
+		(at 251.46 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a17b40c-6364-4800-a7fd-82a5ac8cd509")
@@ -6567,6 +6708,12 @@
 		(uuid "b890ee59-8976-407d-8a77-ee48525cd6e9")
 	)
 	(junction
+		(at 251.46 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb5a014e-d761-496f-a141-66dc3634b3e5")
+	)
+	(junction
 		(at 204.47 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6585,7 +6732,7 @@
 		(uuid "c48f4583-719d-46f5-b2e6-973342bb570e")
 	)
 	(junction
-		(at 231.14 158.75)
+		(at 228.6 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd5ec167-dbeb-4be9-a06f-57a62d78d2d6")
@@ -6631,6 +6778,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef6482fb-f433-4f9e-add5-8ce9590543bc")
+	)
+	(junction
+		(at 180.34 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f07f8da7-ecbc-4421-bad9-bb2407c9b973")
 	)
 	(no_connect
 		(at 139.7 125.73)
@@ -6862,6 +7015,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 49.53) (xy 180.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7c5309-f292-484d-b583-f99acc7117e2")
+	)
+	(wire
+		(pts
 			(xy 236.22 67.31) (xy 237.49 67.31)
 		)
 		(stroke
@@ -6942,7 +7105,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 158.75) (xy 231.14 158.75)
+			(xy 215.9 162.56) (xy 228.6 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6952,13 +7115,23 @@
 	)
 	(wire
 		(pts
-			(xy 254 158.75) (xy 254 156.21)
+			(xy 251.46 162.56) (xy 251.46 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c111cc8-bb30-4915-ab02-3d81493910a7")
+	)
+	(wire
+		(pts
+			(xy 180.34 62.23) (xy 180.34 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221eba28-043d-49b2-8459-7b9bb2b8f1d9")
 	)
 	(wire
 		(pts
@@ -6992,7 +7165,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 151.13) (xy 254 151.13)
+			(xy 228.6 154.94) (xy 251.46 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7069,6 +7242,16 @@
 			(type default)
 		)
 		(uuid "2a2a1953-27ce-423c-adbf-92e8137db74a")
+	)
+	(wire
+		(pts
+			(xy 102.87 34.29) (xy 102.87 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b2c8932-aecb-4323-ac98-92dc0fd5638d")
 	)
 	(wire
 		(pts
@@ -7172,6 +7355,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 154.94) (xy 251.46 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422354b7-2c61-4067-918d-880e33040f98")
+	)
+	(wire
+		(pts
 			(xy 78.74 40.64) (xy 78.74 35.56)
 		)
 		(stroke
@@ -7212,7 +7405,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 153.67) (xy 254 153.67)
+			(xy 248.92 157.48) (xy 251.46 157.48)
 		)
 		(stroke
 			(width 0)
@@ -7482,7 +7675,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 153.67) (xy 254 151.13)
+			(xy 251.46 157.48) (xy 251.46 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7552,6 +7745,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 162.56) (xy 252.73 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d25791b-8981-4949-a57b-e210ffa8e79b")
+	)
+	(wire
+		(pts
 			(xy 166.37 128.27) (xy 166.37 127)
 		)
 		(stroke
@@ -7572,7 +7775,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 158.75) (xy 254 158.75)
+			(xy 228.6 162.56) (xy 251.46 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7742,6 +7945,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 64.77) (xy 106.68 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86360534-2536-48a0-a22d-06c91673db26")
+	)
+	(wire
+		(pts
 			(xy 190.5 127) (xy 196.85 127)
 		)
 		(stroke
@@ -7839,16 +8052,6 @@
 			(type default)
 		)
 		(uuid "8eee9a1c-4912-456a-b794-8a299f88459a")
-	)
-	(wire
-		(pts
-			(xy 227.33 148.59) (xy 231.14 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f445d8c-96e9-49d5-8124-100b20f5ef54")
 	)
 	(wire
 		(pts
@@ -8152,7 +8355,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 156.21) (xy 254 156.21)
+			(xy 248.92 160.02) (xy 251.46 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8232,7 +8435,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 151.13) (xy 231.14 151.13)
+			(xy 215.9 154.94) (xy 228.6 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8571,7 +8774,7 @@
 		(uuid "fe1931a9-04f7-4b34-8cca-4b0bb4171263")
 	)
 	(label "V_ALIM"
-		(at 251.46 153.67 180)
+		(at 248.92 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9232,7 +9435,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 218.44 154.94 0)
+		(at 215.9 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9242,7 +9445,7 @@
 		(dnp no)
 		(uuid "03251925-c94a-403e-ad3c-ea6829d15d7c")
 		(property "Reference" "C15"
-			(at 218.948 152.4 0)
+			(at 216.408 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9253,7 +9456,7 @@
 			)
 		)
 		(property "Value" "0.1uF(50V)"
-			(at 218.694 157.48 0)
+			(at 216.154 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9264,7 +9467,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 219.4052 158.75 0)
+			(at 216.8652 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9275,7 +9478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 154.94 0)
+			(at 215.9 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9286,7 +9489,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 218.44 154.94 0)
+			(at 215.9 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,6 +9509,85 @@
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 102.87 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "037b9144-32f3-4754-87fa-7c0bda446f3a")
+		(property "Reference" "TP3"
+			(at 105.41 29.7179 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.41 32.2579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 107.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 102.87 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d52242e-678e-464e-9658-5db37d857aa4")
+		)
+		(instances
+			(project "ESP32_BUCK_WLED_NO_BOARD"
+				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -9598,6 +9880,84 @@
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
 					(reference "U5")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 162.56 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e4f3190-6233-4d02-b6f8-c410fa893fd6")
+		(property "Reference" "TP2"
+			(at 258.572 161.544 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 257.81 163.8299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 252.73 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fc61fa1-c480-4227-bddd-13db57f6b22c")
+		)
+		(instances
+			(project "ESP32_BUCK_WLED_NO_BOARD"
+				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
+					(reference "TP2")
+					(unit 1)
 				)
 			)
 		)
@@ -11122,6 +11482,84 @@
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 252.73 154.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4aaef4c6-2457-4036-9551-6abe653cee86")
+		(property "Reference" "TP1"
+			(at 257.556 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 258.064 154.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 252.73 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "584409d7-27ba-4ac0-9e94-dd30e5aa65c2")
+		)
+		(instances
+			(project "ESP32_BUCK_WLED_NO_BOARD"
+				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -13404,7 +13842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 156.21 270)
+		(at 248.92 160.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13415,7 +13853,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae942e1e-be74-440f-b55d-15bfadf307b2")
 		(property "Reference" "#PWR017"
-			(at 245.11 156.21 0)
+			(at 242.57 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13426,7 +13864,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 247.65 156.2099 90)
+			(at 245.11 160.0199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13437,7 +13875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 156.21 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13448,7 +13886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 156.21 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13459,7 +13897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 156.21 0)
+			(at 248.92 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13729,6 +14167,163 @@
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 64.77 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bed6b0f1-91ea-4d78-8cd9-fcc05aa7acda")
+		(property "Reference" "TP4"
+			(at 113.03 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 113.03 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 107.95 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50e57395-2dce-43bb-aa03-3f44242bb30a")
+		)
+		(instances
+			(project "ESP32_BUCK_WLED_NO_BOARD"
+				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 180.34 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c24cf197-75fe-48e3-a9c7-058b0304a8d9")
+		(property "Reference" "TP6"
+			(at 182.88 65.5319 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 179.578 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 175.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0975f8cc-a89e-48c6-aad0-5793d82159ee")
+		)
+		(instances
+			(project "ESP32_BUCK_WLED_NO_BOARD"
+				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -14327,6 +14922,84 @@
 			(project "ESP32_BUCK_WLED_NO_BOARD"
 				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 180.34 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cce40614-70ef-4e74-8a5c-a15d86576f7b")
+		(property "Reference" "TP5"
+			(at 182.88 44.9579 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 180.34 47.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 185.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 180.34 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "737919a2-28b6-4e31-9e0a-7692af88d9aa")
+		)
+		(instances
+			(project "ESP32_BUCK_WLED_NO_BOARD"
+				(path "/825652b8-9479-497b-b5c8-f7254daf27f6"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -15248,7 +15921,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 231.14 154.94 0)
+		(at 228.6 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15258,7 +15931,7 @@
 		(dnp no)
 		(uuid "e6a3470b-4ac3-48ab-bd31-52f0194a20bb")
 		(property "Reference" "C14"
-			(at 231.648 152.654 0)
+			(at 229.108 156.464 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15269,7 +15942,7 @@
 			)
 		)
 		(property "Value" "100uF(50V)"
-			(at 231.648 157.48 0)
+			(at 229.108 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15280,7 +15953,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
-			(at 232.1052 158.75 0)
+			(at 229.5652 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15291,7 +15964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 154.94 0)
+			(at 228.6 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15302,7 +15975,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 231.14 154.94 0)
+			(at 228.6 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15329,7 +16002,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 259.08 153.67 0)
+		(at 256.54 157.48 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15337,10 +16010,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ebe3ff2a-2904-4ffe-89cd-d17a53856c3d")
 		(property "Reference" "J3"
-			(at 261.62 153.6699 0)
+			(at 259.08 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15351,7 +16023,7 @@
 			)
 		)
 		(property "Value" "BOARD_ALIMENTATION"
-			(at 261.62 156.2099 0)
+			(at 259.08 159.258 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15362,7 +16034,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 259.08 153.67 0)
+			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15373,7 +16045,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 153.67 0)
+			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15384,7 +16056,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 259.08 153.67 0)
+			(at 256.54 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

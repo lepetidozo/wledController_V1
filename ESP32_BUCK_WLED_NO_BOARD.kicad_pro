@@ -573,7 +573,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerberFiles",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -759,7 +759,7 @@
         "uuid": "825652b8-9479-497b-b5c8-f7254daf27f6"
       }
     ],
-    "used_designators": "Q1-6,U1-5,D1-2,R1-25,LED1,Input_12vDC1,SW1-3,#PWR2-19,J1-6,alimentation_DC1,Output_5vDC1,RV1,L1,Trimmer1,HS1,C1-16",
+    "used_designators": "#PWR2-19,J1-6,alimentation_DC1,Input_12vDC1,C1-16,Output_5vDC1,RV1,L1,TP1-6,R1-25,LED1,Q1-6,D1-2,U1-5,Trimmer1,HS1,SW1-3",
     "variants": []
   },
   "sheets": [
