@@ -1,0 +1,13 @@
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-F_Cu.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-In1_Cu.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-In2_Cu.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-B_Cu.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-F_Paste.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-B_Paste.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-F_Silkscreen.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-B_Silkscreen.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-F_Mask.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-B_Mask.gbr'.
+Tracé en '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-Edge_Cuts.gbr'.
+Création du fichier Gerber "job" '/home/gaston/Documents/ESP32_BUCK_WLED_NO_BOARD/gerberFiles/ESP32_BUCK_WLED_NO_BOARD-job.gbrjob'.
+Info: Fini.
